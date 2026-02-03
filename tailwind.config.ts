@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom colors for Qingyu
+        stone: "hsl(var(--stone))",
+        bamboo: "hsl(var(--bamboo))",
+        cream: "hsl(var(--cream))",
+        wood: "hsl(var(--wood))",
+        sage: "hsl(var(--sage))",
+      },
+      fontFamily: {
+        serif: ['Noto Serif TC', 'serif'],
+        sans: ['Noto Sans TC', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +90,30 @@ export default {
             height: "0",
           },
         },
+        "fade-in": {
+          from: {
+            opacity: "0",
+          },
+          to: {
+            opacity: "1",
+          },
+        },
+        "fade-up": {
+          from: {
+            opacity: "0",
+            transform: "translateY(20px)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "fade-in": "fade-in 0.8s ease-out forwards",
+        "fade-up": "fade-up 0.8s ease-out forwards",
       },
     },
   },

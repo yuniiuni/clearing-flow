@@ -8,7 +8,7 @@ const Services = () => {
       icon: Sparkles,
       name: "專業牛角鬆筋",
       duration: "60 分鐘",
-      price: "$1,200",
+      price: "$1,000",
       description: "針對深層筋膜，有效緩解局部痠痛。運用天然牛角，以專業手法深入肌肉組織，釋放累積的壓力與緊繃。",
       popular: true,
     },
